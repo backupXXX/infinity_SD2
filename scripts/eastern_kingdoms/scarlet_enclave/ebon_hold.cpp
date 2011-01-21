@@ -3680,13 +3680,6 @@ void AddSC_ebon_hold()
     pNewScript->RegisterSelf();
 
     pNewScript = new Script;
-    pNewScript->Name = "npc_highlord_darion_mograine";
-    pNewScript->GetAI = &GetAI_npc_highlord_darion_mograine;
-    pNewScript->pGossipHello =  &GossipHello_npc_highlord_darion_mograine;
-    pNewScript->pGossipSelect = &GossipSelect_npc_highlord_darion_mograine;
-    pNewScript->RegisterSelf();
-
-    pNewScript = new Script;
     pNewScript->Name = "npc_the_lich_king_tirion_dawn";
     pNewScript->GetAI = &GetAI_npc_the_lich_king_tirion_dawn;
     pNewScript->RegisterSelf();
