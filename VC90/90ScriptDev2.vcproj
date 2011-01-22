@@ -496,7 +496,15 @@
 					>
 				</File>
 			</Filter>
-			<Filter
+            <Filter
+				Name="infinityAI"
+				>
+				<File
+					RelativePath="..\scripts\infinityAI\infinity_trash.cpp"
+					>
+                </File>
+                </Filter>
+             <Filter
 				Name="eastern_kingdoms"
 				>
 				<File
